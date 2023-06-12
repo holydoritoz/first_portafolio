@@ -1,2 +1,2 @@
-# first_portafolio
-Mi primer portafolio
+# Portafolio
+HTML, CSS & Bulma

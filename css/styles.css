@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #fffefe;
+}
+
+
+#landing .title {
+    font-weight: 700;
+    font-size: 3rem;
+    word-break: break-word;
+    text-rendering: optimizeLegibility;
+    color: #2c3e50;
+    font-family: 'Electrolize', sans-serif;
+    margin-top: 2%;
+}
+#landing .subtitle {
+    letter-spacing: 2px;
+    font-weight: lighter;
+    color: #2c3e50;
+    font-size: 20px;
+    font-family: 'Electrolize', sans-serif;
+}
+
+.is-top {
+    max-width: 20%;
+    height: auto;
+}
+.is-bottom {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.has-text-centered {
+    text-align: center !important;
+}
+#about h1 {
+    font-family: 'Electrolize', sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+}
+#about h3 {
+padding-top: 30px;
+line-height: 2rem;
+}
+#skills h1, h2, h3, h4, h5, p, ul, li {
+    font-family: 'Electrolize', sans-serif;
+    text-align: center !important;
+    display: block;
+}
+#skills figure img {
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    margin-left: 300%;
+}
+.letstalk {
+    font-size: 30px;
+}
+footer {
+    font-family: 'Electrolize', sans-serif;
+}
+.social-icons p a {
+    display: inline-flex;
+    width: 40px;
+    height: 40px;
+    background: #2c3e50;
+    color: white;
+    margin: 0 6px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+    font-size: 24px;
+}
+.social-icons p a:hover {
+    background: #E91E63;
+}
+
